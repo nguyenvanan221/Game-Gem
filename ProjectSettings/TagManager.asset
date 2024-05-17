@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Gem blue
+  - Gem green
+  - 'Gem orange '
+  - Gem pink
+  - Gem red
+  - Gem yellow
   layers:
   - Default
   - TransparentFX
