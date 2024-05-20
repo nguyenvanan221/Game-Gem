@@ -35,6 +35,6 @@ public class CoinEffect : MonoBehaviour
         }
 
         coin.position = endPosition;
-        Destroy(gameObject);
+        Destroy(coin.gameObject);
     }
 }
