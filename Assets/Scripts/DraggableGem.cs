@@ -107,6 +107,7 @@ public class DraggableGem : MonoBehaviour
             rightGem.GetComponent<Gem>().isMatched = true;
             transform.GetComponent<Gem>().isMatched = true;
             CoinEffect((rightGem.transform.position + transform.position) /2f);
+            
         }
 
         if (leftGem != null && leftGem.tag == tag)

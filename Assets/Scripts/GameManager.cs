@@ -31,9 +31,9 @@ public class GameManager : Singleton<GameManager>
 
     private void Update()
     {
-        if(SpawnGems.Instance.transform.childCount == 0)
-        {
-            SpawnGems.Instance.Initialize();
-        }
+        //if(SpawnGems.Instance.transform.childCount == 0)
+        //{
+        //    SpawnGems.Instance.Initialize();
+        //}
     }
 }

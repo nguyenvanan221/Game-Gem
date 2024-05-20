@@ -7,7 +7,7 @@ public class CoinEffect : MonoBehaviour
     public Transform coinPrefab;
     public float bounceHeight = 1.0f; 
     public float bounceTime = 1.0f;  
-    public float rotationSpeed = 360.0f;  
+    public float rotationSpeed = 360.0f;
 
 
     public void StartCoinEffect(Vector3 startPosition)
@@ -35,5 +35,6 @@ public class CoinEffect : MonoBehaviour
         }
 
         coin.position = endPosition;
+        Destroy(gameObject);
     }
 }

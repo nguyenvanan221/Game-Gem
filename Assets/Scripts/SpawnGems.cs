@@ -5,10 +5,12 @@ using UnityEngine;
 public class SpawnGems : Singleton<SpawnGems>
 {
     public GameObject[] gemsPrefab;
+    //public int numberGems;
 
     void Start()
     {
         Initialize();
+        //numberGems = 0;
     }
 
     public void Initialize()
